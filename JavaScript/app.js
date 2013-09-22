@@ -20,6 +20,7 @@ $(document).ready(function(){
 
         setTimeout(function () {
             $('#result_container').fadeIn(200);
+            $('#newGame').fadeIn(200);
         }, 500)
 
         var guess = $('#user_input').val();
@@ -82,6 +83,10 @@ $(document).ready(function(){
       }
       attempt += 1;
     }
+
+        $('#newGame').click(function(e){
+             location.reload();
+        });
 
     });
 

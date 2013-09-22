@@ -204,6 +204,20 @@ q:after {
     letter-spacing: 0.1em;
     line-height: 20px;
 }
+
+#newGame{
+    height: 32px;
+    margin: 120px 0 0 0;
+    padding: 0 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background-color: #aa17bd;
+    color: #fff;
+    vertical-align: top;
+    cursor: pointer;
+}
+
     footer {
     position: absolute;
     bottom: 0;
