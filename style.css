@@ -147,6 +147,16 @@ q:after {
     color: #C217B4;
     text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
 }
+
+#instructions {
+    font-size: 22px;
+    padding-top: 25px;
+    letter-spacing: 1px;
+    text-align:center;
+    color: #C2C2C2;
+    text-shadow: 1px 1px 1px #000, 2px 2px 2px yellow;
+}
+
     #form_wrap {
     width: 600px;
     margin: auto;

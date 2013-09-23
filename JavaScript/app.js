@@ -16,6 +16,7 @@ $(document).ready(function(){
         e.preventDefault();
 
         $('#title').fadeOut(100);
+        $('#instructions').fadeOut(100);
         $('form').animate({top:'20px'}, 500);
 
         setTimeout(function () {
