@@ -153,8 +153,8 @@ q:after {
     padding-top: 25px;
     letter-spacing: 1px;
     text-align:center;
-    color: #C2C2C2;
-    text-shadow: 1px 1px 1px #000, 2px 2px 2px yellow;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff, 1px 1px 1px red;
 }
 
     #form_wrap {
@@ -171,15 +171,16 @@ q:after {
     padding: 5px;
     font-size: 16px;
     vertical-align: top;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 0px;
 }
     .btn {
-    height: 32px;
+    height: 30px;
     margin: 2px 0px 2px 2px;
     padding: 0 20px;
-    font-size: 18px;
+    font-size: 14px;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: #aa17bd;
     color: #fff;
     vertical-align: top;
@@ -234,6 +235,7 @@ q:after {
     left: 0;
     right: 0;
     height: 36px;
+    background: #8a8a8a;
 }
     #links_container {
     font-weight: 600;
@@ -243,7 +245,7 @@ q:after {
 }
     #links_container a {
     text-decoration: none;
-    color: #aa17bd;
+    color: #fafafa;
     margin-left: 10px;
 }
     #links_container a:visited {

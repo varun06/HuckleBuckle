@@ -28,6 +28,7 @@ $(document).ready(function(){
         var distance = Math.abs(guess - answer);
         // Call validate function to validate the user guess and work on it
         validateGuess(guess);
+        $('#user_input').val() = '';
 
         //This function validates the user guess and process it
         function validateGuess(guess) {
