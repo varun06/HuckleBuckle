@@ -22,13 +22,12 @@ $(document).ready(function(){
         setTimeout(function () {
             $('#result_container').fadeIn(200);
             $('#newGame').fadeIn(200);
-        }, 500)
+        }, 500);
 
         var guess = $('#user_input').val();
         var distance = Math.abs(guess - answer);
         // Call validate function to validate the user guess and work on it
         validateGuess(guess);
-        $('#user_input').val() = '';
 
         //This function validates the user guess and process it
         function validateGuess(guess) {
